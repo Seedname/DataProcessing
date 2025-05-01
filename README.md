@@ -5,13 +5,13 @@ To further clarify the instructions, resources for how transactions work in rela
 
 ## Requirements
 
-1. **Clone the repository:**
+1. **Clone the repository:**  
     ```sh
     git clone https://github.com/Seedname/DataProcessing.git
     cd DataProcessing
     ```
 
-2. **Python version >=3.10**
+2. **Python version >=3.10**  
     Link to install Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ## Using the API
