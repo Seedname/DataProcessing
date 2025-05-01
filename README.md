@@ -24,7 +24,7 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 
 #### Constructor
 
-##### `__init__()`{.python}
+##### `__init__()`
 - **Description**:  
   Initializes the InMemoryDB class
 
@@ -32,7 +32,7 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 
 #### Methods
 
-##### `get(key: str) -> int | None`{.python}
+##### `get(key: str) -> int | None`
 - **Description**:  
     Retrieve the value from the database, or `None` if not found
 - **Input**:  
@@ -46,7 +46,7 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 
 ---
 
-##### `put(key: str, val: int) -> None`{.python}
+##### `put(key: str, val: int) -> None`
 - **Description**:  
   Puts the key/value pair in the database
 - **Input**:  
@@ -57,12 +57,12 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 - **Output**:  
   - _None_
 - **Errors**:  
-  - `ValueError`{.python}
+  - `ValueError`  
     Throws an error if this is called and a transaction has not been started 
 
 ---
 
-##### `begin_transaction() -> None`{.python}
+##### `begin_transaction() -> None`
 - **Description**:  
   Start a new transaction
 - **Input**:  
@@ -70,12 +70,12 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 - **Output**:  
   - _None_
 - **Errors**:  
-  - `ValueError`{.python}
+  - `ValueError`  
     Throws an error if this is called and a transaction has already been started
 
 ---
 
-##### `commit() -> None`{.python}
+##### `commit() -> None`
 - **Description**:  
   Commit the temporary changes to the database
 - **Input**:  
@@ -83,12 +83,12 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 - **Output**:  
   - _None_
 - **Errors**:  
-  - `ValueError`{.python}
+  - `ValueError`  
     Throws an error if this is called and a transaction has not been started 
 
 ---
 
-##### `rollback() -> None`{.python}
+##### `rollback() -> None`
 - **Description**:  
   Rollback the changes (erase the temporary data)
 - **Input**:  
@@ -96,5 +96,5 @@ To test the API directly, I recommend using `test.py` and calling functions afte
 - **Output**:  
   - _None_
 - **Errors**:  
-  - `ValueError`{.python}
+  - `ValueError`  
     Throws an error if this is called and a transaction has not been started 
