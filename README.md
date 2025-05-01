@@ -1,7 +1,7 @@
 # Data Processing and Storage Assignment
 
 ## Writeup
-To further clarify the instructions, resources for how transactions work in relational databases, or websites that have demonstrations would be nice. I think that this assignment could also have the students implement a Unit Test in their desired language to also teach how to test code. This could also make it easier to grade, as the students could submit a screenshot of their tests passing, for example.
+To further clarify the instructions, websites that have an interactive demo of a transactional database would be nice. I think that this assignment could also have the students implement a Unit Test in their desired language to also teach how to test code. This could also make it easier to grade, as the students could submit a screenshot of their tests passing, for example.
 
 ## Requirements
 
